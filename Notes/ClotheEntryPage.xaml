@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="Clothes.ClotheEntryPage"
+             Title="Adicionar roupas">
+    <StackLayout Margin="20">
+        <Editor Placeholder="Tipo"
+                Text="{Binding Type}"
+                HeightRequest="50" />
+        <Editor Placeholder="Marca"
+                Text="{Binding Brand}"
+                HeightRequest="50" />
+        <Editor Placeholder="Características"
+                Text="{Binding Characteristics}"
+                HeightRequest="50" />
+        <Editor Placeholder="Tamanho"
+                Text="{Binding Size}"
+                HeightRequest="50" />
+        <Editor Placeholder="Cor"
+                Text="{Binding Color}"
+                HeightRequest="50" />
+        <Editor Placeholder="Preço de Etiqueta"
+                Text="{Binding TicketPrice}"
+                HeightRequest="50" />
+        <Editor Placeholder="Preço Pago"
+                Text="{Binding PaidPrice}"
+                HeightRequest="50" />
+        <Editor Placeholder="Margem"
+                Text="{Binding Margin}"
+                HeightRequest="50" 
+                IsReadOnly="True"/>
+        <Editor Placeholder="Preço sugerido"
+                Text="{Binding SuggestedPrice}"
+                HeightRequest="50" />
+
+        
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Button Text="Salvar" 
+                    Clicked="OnSaveButtonClicked" />
+            <Button Grid.Column="1"
+                    Text="Deletar" 
+                    Clicked="OnDeleteButtonClicked"/>
+        </Grid>
+    </StackLayout>
+</ContentPage>

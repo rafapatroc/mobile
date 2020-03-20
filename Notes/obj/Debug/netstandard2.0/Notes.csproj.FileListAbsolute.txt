@@ -1,0 +1,13 @@
+C:\Code\PatrocToc\Notes\bin\Debug\netstandard2.0\Notes.deps.json
+C:\Code\PatrocToc\Notes\bin\Debug\netstandard2.0\Notes.dll
+C:\Code\PatrocToc\Notes\bin\Debug\netstandard2.0\Notes.pdb
+C:\Code\PatrocToc\Notes\obj\Debug\netstandard2.0\Notes.csprojAssemblyReference.cache
+C:\Code\PatrocToc\Notes\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Code\PatrocToc\Notes\obj\Debug\netstandard2.0\NoteEntryPage.xaml.g.cs
+C:\Code\PatrocToc\Notes\obj\Debug\netstandard2.0\NotesPage.xaml.g.cs
+C:\Code\PatrocToc\Notes\obj\Debug\netstandard2.0\Notes.csproj.CoreCompileInputs.cache
+C:\Code\PatrocToc\Notes\obj\Debug\netstandard2.0\Notes.AssemblyInfoInputs.cache
+C:\Code\PatrocToc\Notes\obj\Debug\netstandard2.0\Notes.AssemblyInfo.cs
+C:\Code\PatrocToc\Notes\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Code\PatrocToc\Notes\obj\Debug\netstandard2.0\Notes.dll
+C:\Code\PatrocToc\Notes\obj\Debug\netstandard2.0\Notes.pdb
